@@ -1,6 +1,6 @@
 spring:
   application:
-    name: product-Client
+    name: product-client
 
 server:
   port: 8082
