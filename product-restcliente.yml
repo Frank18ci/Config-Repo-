@@ -1,6 +1,26 @@
 spring:
   application:
     name: product-restcliente
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_dbb
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
 
 server:
   port: 8081
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
