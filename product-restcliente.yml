@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: product-RestCliente
+
+server:
+  port: 8081
